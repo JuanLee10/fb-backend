@@ -23,7 +23,8 @@
     "jsonwebtoken": "*",
     "pg": "*",
     "react-dom": "^17.0.2",
-    "swagger-ui-express": "*"
+    "swagger-ui-express": "*",
+    "nodemon": "^2.0.16"
   },
   "jest": {
     "collectCoverageFrom": [
