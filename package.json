@@ -55,6 +55,7 @@
   "scripts": {
     "start": "nodemon src/server.js",
     "test": "jest --runInBand --coverage --verbose --forceExit",
-    "lint": "./node_modules/.bin/eslint . --ext .js"
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   }
 }
