@@ -15,16 +15,17 @@
     "bcrypt": "*",
     "body-parser": "*",
     "cors": "*",
+    "debug": "^4.3.4",
     "dotenv": "*",
     "express": "*",
     "express-openapi-validator": "*",
     "express-session": "*",
     "js-yaml": "*",
     "jsonwebtoken": "*",
+    "nodemon": "^2.0.16",
     "pg": "*",
     "react-dom": "^17.0.2",
-    "swagger-ui-express": "*",
-    "nodemon": "^2.0.16"
+    "swagger-ui-express": "*"
   },
   "jest": {
     "collectCoverageFrom": [
