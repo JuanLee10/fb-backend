@@ -1,8 +1,8 @@
 {
-  "name": "cse183-assignment8-backend",
+  "name": "ffb-backend",
   "version": "2.0.0",
-  "description": "CSE183 Assignment 8 - Backend",
-  "author": "David Harrison <dcharris@ucsc.edu>",
+  "description": "ffb-Backend",
+  "author": "David Harrison <dcharris@ucsc.edu>, Juan Lee <jlee543@ucsc.edu>",
   "license": "UNLICENSED",
   "repository": "none",
   "devDependencies": {
@@ -48,6 +48,9 @@
         2
       ]
     }
+  },
+  "engines": {
+    "node": "12.18.4"
   },
   "scripts": {
     "start": "nodemon src/server.js",
