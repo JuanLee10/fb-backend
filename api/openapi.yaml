@@ -10,7 +10,7 @@ info:
   title: CSE183 Assignment 8 Backend
 
 servers:
-  - url: http://localhost:3010/v0
+  - url: https://fakefacebookmarketplace-be.herokuapp.com/v0/api-docs/
 
 paths:
   /dummy:
