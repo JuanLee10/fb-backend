@@ -9,7 +9,6 @@
     "eslint": "*",
     "eslint-config-google": "*",
     "jest": "*",
-    "nodemon": "*",
     "supertest": "*"
   },
   "dependencies": {
