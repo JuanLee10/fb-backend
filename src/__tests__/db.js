@@ -6,12 +6,13 @@ const fs = require('fs');
 const {Pool} = require('pg');
 
 require('dotenv').config();
-process.env.POSTGRES_DB='test';
+const POSTGRES_DB='test';
+const {HOST} = require('constants.js');
 
 const pool = new Pool({
-  host: 'localhost',
+  host: HOST,
   port: 5432,
-  database: process.env.POSTGRES_DB,
+  database: POSTGRES_DB,
   user: process.env.POSTGRES_USER,
   password: process.env.POSTGRES_PASSWORD,
 });
