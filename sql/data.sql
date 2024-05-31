@@ -1,4 +1,4 @@
--- Dummy Data --
+
 
 INSERT INTO dummy (created) VALUES (current_timestamp);
 
@@ -37,7 +37,7 @@ INSERT INTO listing(creationTime, content, subcategories) VALUES (current_timest
 INSERT INTO listing(creationTime, content, subcategories) VALUES (current_timestamp, '{"title": "Small Family", "price": "10", "image": "https://res.cloudinary.com/dfjqgstje/image/upload/v1638557604/Family-Silhouette-3_vmoadu.jpg", "Location": "Santa Cruz, CA", "Category": "Family"}', ARRAY ['Health & Beauty']);
 
 INSERT INTO listing(creationTime, content, subcategories) VALUES (current_timestamp, '{"title": "Expensive Free", "price": "0", "image": "https://res.cloudinary.com/dfjqgstje/image/upload/v1638557647/hubspot_20crm_20is_20free_w5ar9v.png", "Location": "San Jose, CA", "Category": "Free Stuff"}', ARRAY ['free']);
--- INSERT INTO listing(creationTime, content, subcategories) VALUES (current_timestamp, '{"title": "Weird Free", "price": "0", "image": "https://res.cloudinary.com/dfjqgstje/image/upload/v1638402659/Garena-Free-Fire_snbqiu.jpg", "Location": "Santa Cruz, CA", "Category": "Free Stuff"}', ARRAY ['free']);
+
 INSERT INTO listing(creationTime, content, subcategories) VALUES (current_timestamp, '{"title": "Small Free", "price": "0", "image": "https://res.cloudinary.com/dfjqgstje/image/upload/v1638557639/1200px-Free_mobile_2011.svg_xqb0ya.png", "Location": "Santa Cruz, CA", "Category": "Free Stuff"}', ARRAY ['free']);
 
 INSERT INTO listing(creationTime, content, subcategories) VALUES (current_timestamp, '{"title": "Expensive Plant", "price": "500", "image": "https://res.cloudinary.com/dfjqgstje/image/upload/v1638404126/What-Are-Plants_x6wt4d.jpg", "Location": "San Jose, CA", "Category": "Garden & Outdoor"}', ARRAY ['Bird & Wildlife Accessories', 'Fencing Supplies']);
