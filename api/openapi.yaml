@@ -5,9 +5,9 @@
 openapi: '3.0.3'
 
 info:
-  description: CSE183 Assignment 8 Backend
+  description: FB Backend
   version: 0.1.0
-  title: CSE183 Assignment 8 Backend
+  title: FB Backend
 
 servers:
   - url: https://fakefacebookmarketplace-be.herokuapp.com/v0/api-docs/
